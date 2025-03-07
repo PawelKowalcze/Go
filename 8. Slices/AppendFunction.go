@@ -6,6 +6,8 @@
 //slice = append(slice, firstThing, secondThing)
 //slice = append(slice, anotherSlice...)
 
+// always append to the same slice, don't reassign
+
 package main
 
 import "fmt"
